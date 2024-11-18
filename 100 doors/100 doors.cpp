@@ -11,7 +11,6 @@ void toggleDoors(int totalDoors, int passes) {
             doors[door] = !doors[door]; // Toggle the door state
         }
     }
-
     // Print the doors that remain open
     cout << "The doors that remain open are:\n";
     for (int i = 0; i < totalDoors; ++i) {
@@ -28,6 +27,5 @@ int main() {
 
     // Call the function to toggle doors and display the result
     toggleDoors(totalDoors, passes);
-
     return 0;
 }
